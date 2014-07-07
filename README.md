@@ -1,4 +1,5 @@
-styleguide
+Code Styleguide
 ==========
 
-Coding styleguide
+* [Javascript](javascript)
+* [LESS/CSS](css)
