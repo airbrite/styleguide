@@ -12,6 +12,7 @@ Try to make your code simple and self documenting. Use 20 lines as a guideline f
 When initializing default values, use:
 
 ```js
+objectids = null;
 strings = '';
 numbers = 0;`
 objects = {};
