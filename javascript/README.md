@@ -226,17 +226,53 @@ Tabs should be soft tabs of **2 spaces**.
 
 ## Quotations
 
-Prefer ' over "
+Prefer `'` over `"`
 
 
 ## Comparisons
 
-Always use === and !==
+Always use `===` and `!==`
 
 ## Semicolons
 
-- Always use semicolons for all functions, callbacks, and literals.
-- Don't use semicolons for if, for, while, and other control blocks.
+Use them.
+
+* Always use semicolons for all functions, callbacks, and literals.
+* Don't use semicolons for if, for, while, and other control blocks.
+
+## Leading Commas
+
+No.
+
+Bad:
+
+```js
+var a = [
+    1
+  , 2
+  , 3
+];
+
+var b = {
+    foo: 'bar'
+  , baz: 'wombat'
+};
+```
+
+Good:
+
+```js
+var a = [
+  1,
+  2,
+  3
+]
+
+var b = {
+  foo: 'bar',
+  baz: 'wombat'
+};
+```
 
 ## Wrap JSON.parse with try/catch
 
