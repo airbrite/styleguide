@@ -1,5 +1,7 @@
 # Javascript Styleguide
 
+Use JSHint and JS Beautify to make our projects more consistent. [See the tools](tools.md) page for integrating these into your workflow.
+
 ## Comments
 
 For most comments, use `//`. For comments over 4 lines, you can use `/* */`.
