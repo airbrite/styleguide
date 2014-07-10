@@ -212,6 +212,21 @@ if (foo) {
 }
 ```
 
+## Ternary Operator
+
+Use them for simple cases.
+
+Bad:
+
+```js
+var foo = (this.model.get('products').length > 10 && bar < 1) ? true : false;
+```
+
+Good:
+
+```js
+var foo = productLength > 10 ? true : false;
+```
 
 ## Promises
 
