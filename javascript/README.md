@@ -17,7 +17,7 @@ When initializing default values, use:
 ```js
 objectids = null;
 strings = '';
-numbers = 0;`
+numbers = 0;
 objects = {};
 arrays  = [];
 ```
@@ -135,7 +135,7 @@ var b = 0;
 var c = 1;
 
 function foo() {
-  // No spaces  
+  // No spaces
 }
 
 if (b) {
