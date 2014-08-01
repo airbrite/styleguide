@@ -1,6 +1,7 @@
 # Javascript Styleguide
 
-Use JSHint and JS Beautify to make our projects more consistent. [See the tools](tools.md) page for integrating these into your workflow.
+* [Best Practices](best_practices)
+* [Tools](tools)
 
 ## Comments
 
