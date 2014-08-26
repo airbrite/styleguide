@@ -251,6 +251,36 @@ Prefer `'` over `"`
 
 Always use `===` and `!==`
 
+## Long Operator Chains
+
+Indent on newlines and put operator on the left.
+
+Bad:
+
+```js
+if (hasProduct && isCool || isAwesome || isWombat) {
+  ...
+}
+
+if (hasProduct &&
+  isCool ||
+  isAwesome ||
+  isWombat) {
+  ...
+}
+```
+
+Good:
+
+```js
+if (hasProduct
+  && isCool
+  || isAwesome
+  || isWombat) {
+  ...
+}
+```
+
 ## Semicolons
 
 Use them.
