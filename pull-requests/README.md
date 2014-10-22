@@ -17,5 +17,5 @@
 * If there are visual changes or new features, attach a screenshot
   * Before and after shots are nice
 
-* When possible, create a new branch for each component and a separate PR.
-  * Merge component's branch into the feature branch.
+* When possible, create a new branch for each component and a separate PR
+  * Merge component's branch into the feature branch
