@@ -13,13 +13,10 @@
 1. Authors merge their own branches after approval and gut check
 
 
-## Working with large features
+## Working with a large Pull Request
 
-1. If you encounter a feature that requires (roughly) more than two day’s work, split it into smaller tasks.
-1. By all means, avoid big Pull Requests. Split your work in smaller chunks.
-1. Use a single feature branch per requiered feature. If a feature requires many tasks create a branch per task and send Pull Requests against the feature branch, avoiding partials Pull Requests to master.
-1. If you modify one or more components in the feature branch, create a Pull Request per component.
-
+1. If the Pull Request is large and the code can be split up into independent chunks, it is best to split it up.
+1. Ask yourself if you would want to review the Pull Request after two weeks of not looking at it.
 
 ## Frontend
 
