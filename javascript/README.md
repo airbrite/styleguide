@@ -1,14 +1,32 @@
 # Javascript Styleguide
 
-* [Best Practices](best_practices)
-* [Tools](tools)
+* [Best Practices](best_practices.md)
+* [Tools](tools.md)
+
+## Indentation
+
+Tabs should be soft tabs of **2 spaces**.
+
+## Quotations
+
+Prefer `'` over `"`
+
+## Comparisons
+
+Always use `===` and `!==`
+
+## Semicolons
+
+Use them.
+
+* Always use semicolons for all functions, callbacks, and literals.
+* Don't use semicolons for if, for, while, and other control blocks.
 
 ## Comments
 
 For most comments, use `//`. For comments over 4 lines, you can use `/* */`.
 
 Try to make your code simple and self documenting. Use 20 lines as a guideline for considering breaking the method into pieces.
-
 
 ## Default Values
 
@@ -96,7 +114,6 @@ Good:
 SUPER_CONSTANT = 'apikey';
 ```
 
-
 ### Spacing
 
 * One line per variable
@@ -130,7 +147,6 @@ var koala;
 * Space after `function`
 
 ```js
-
 var b = 0;
 var c = 1;
 
@@ -153,8 +169,36 @@ switch(foo) {
     console.log(foo);
     break;
 }
+```
 
+#### Wrapping Arguments
 
+If arguments go past the 80 character line limit, add a newline after each just like an array.
+
+Bad:
+
+```js
+function() {
+...
+}.property('foo', 'bar', 'baz', 'wombat', 'koala', 'coffee', 'tea', 'beer', 'whiskey');
+```
+
+Good:
+
+```js
+function() {
+...
+}.property(
+  'foo',
+  'bar',
+  'baz',
+  'wombat',
+  'koala',
+  'coffee',
+  'tea',
+  'beer',
+  'whiskey'
+);
 ```
 
 ### jQuery wrapped
@@ -230,33 +274,6 @@ Good:
 ```js
 var foo = productLength > 10 ? true : false;
 ```
-
-## Promises
-
-Prefer promises over callbacks.
-
-We use bluebird to wrap all network requests in promises via bootie.
-
-## Indentation
-
-Tabs should be soft tabs of **2 spaces**.
-
-
-## Quotations
-
-Prefer `'` over `"`
-
-
-## Comparisons
-
-Always use `===` and `!==`
-
-## Semicolons
-
-Use them.
-
-* Always use semicolons for all functions, callbacks, and literals.
-* Don't use semicolons for if, for, while, and other control blocks.
 
 ## Leading Commas
 
