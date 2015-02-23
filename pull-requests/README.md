@@ -15,8 +15,9 @@
 
 ## Working with a large Pull Request
 
-1. If the Pull Request is large and the code can be split up into independent chunks, it is best to split it up.
-1. Ask yourself if you would want to review the Pull Request after two weeks of not looking at it.
+1. If the Pull Request is large and the code can be split up into independent chunks,
+it is best to split it up.
+
 
 ## Frontend
 
