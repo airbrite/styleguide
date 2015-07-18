@@ -1,6 +1,6 @@
 # Javascript Style Guide
 
-Much of this is adapted from [Douglas Crockford](http://javascript.crockford.com/code.html)
+Much of this is adapted from [Douglas Crockford](http://javascript.crockford.com/code.html) and [Airbnb](https://github.com/airbnb/javascript/tree/master/es5)
 
 ## Indentation
 
