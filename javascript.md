@@ -2,6 +2,8 @@
 
 Much of this is adapted from [Douglas Crockford](http://javascript.crockford.com/code.html) and [Airbnb](https://github.com/airbnb/javascript/tree/master/es5)
 
+For React [Airbnb React](https://github.com/airbnb/javascript/tree/master/react)
+
 ## Indentation
 
 Tabs should be soft tabs of **2 spaces**.
