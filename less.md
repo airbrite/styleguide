@@ -1,3 +1,3 @@
 # LESS and CSS
 
-[SUIT CSS](https://github.com/suitcss/suit)
+[SUIT CSS Style Guide](https://github.com/suitcss/suit)
