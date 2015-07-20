@@ -6,6 +6,7 @@
 - [Git](git.md)
 - [Tools](tools.md)
 - [Deployment](deployment.md)
+- [Linters](linters.md)
 
 # General Best Practices
 
