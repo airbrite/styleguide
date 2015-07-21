@@ -4,7 +4,7 @@ Much of this is adapted from [Douglas Crockford](http://javascript.crockford.com
 
 ## React
 
-[Airbnb React](https://github.com/airbnb/javascript/tree/master/react)
+[Airbnb React Style Guide](https://github.com/airbnb/javascript/tree/master/react)
 
 ## jQuery
 
