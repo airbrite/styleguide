@@ -5,8 +5,7 @@
 - [CSS](https://github.com/airbrite/css)
 - [Git](git.md)
 - [Tools](tools.md)
-- [Deployment](deployment.md)
-- [Linters](linters.md)
+- [Deployment](deployment.md))
 
 # General Best Practices
 
