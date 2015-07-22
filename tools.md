@@ -120,3 +120,7 @@ Goto `Submlime Text -> Preferences -> Package Settings -> JsFormat -> Settings -
 ```
 https://mac.github.com/
 ```
+
+## Private NPM
+
+http://blog.getpiggybank.com/npm-private-modules-with-heroku/
