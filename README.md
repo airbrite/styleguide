@@ -1,7 +1,7 @@
 
 # Table of Contents
 
-- [Javascript](javascript.md)
+- [Javascript](https://github.com/airbrite/javascript)
 - [Less/CSS](less.md)
 - [Git](git.md)
 - [Tools](tools.md)
