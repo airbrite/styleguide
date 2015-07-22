@@ -2,7 +2,7 @@
 # Table of Contents
 
 - [Javascript](https://github.com/airbrite/javascript)
-- [Less/CSS](less.md)
+- [CSS](https://github.com/airbrite/css)
 - [Git](git.md)
 - [Tools](tools.md)
 - [Deployment](deployment.md)
