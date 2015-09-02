@@ -60,6 +60,10 @@ commit 1
 
 Anything that was previously committed in 3, 4, or 5 are now uncommitted changes.
 
-## Dealing with Merge Conflicts
+## Dealing with Pull Conflicts
 
-TBD
+Sometimes when trying to pull a remote branch to an existing local branch, the remote branch may have been rebased and requires a hard (force) reset.
+
+```
+git reset --hard origin/branch/name
+```
